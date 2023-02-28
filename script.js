@@ -69,7 +69,7 @@ let users = [
             
             }
         
-        alert(phoneNumbers.join('\n') + '\n' + sumBalance);
+        alert(phoneNumbers.join('\n') + '\n' + sumBalance)
         
         
     
