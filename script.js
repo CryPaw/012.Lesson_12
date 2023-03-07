@@ -61,9 +61,9 @@ let users = [
     
         for(let y = 0; y < users.length; y++){
             balance = Number(users[y].balance.replace(/[\$,]/g, ''));
-
+            sumBalance += balance;
+            
             if (balance >= 2000) {               
-                sumBalance += balance;
                 phoneNumbers.push(users[y].phone);
             }
             
